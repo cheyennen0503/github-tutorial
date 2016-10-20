@@ -20,3 +20,7 @@ Github stores all of the code/snapshots in the cloud.
 
 ---
 ## Workflow & Commands
+#### git status  
+#### git add 
+#### git commit
+#### git push 
