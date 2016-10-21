@@ -20,7 +20,9 @@ Github stores all of the code/snapshots in the cloud.
 
 ---
 ## Workflow & Commands
-#### git status  
-#### git add 
-#### git commit
-#### git push 
+_As you go on with working with your code, you should constantly use these commands to keep track of your code._
+* #### git status  
+`git status` is a tool used to see the changes that have been made in your project (the status of your project) which would show up in red and when an edited file has been added to the staging area for a snapshot, it will show up in `git status` as green. So the syntax of `git status` is exactly that. You use git status before you add, after you add, and after you commit. You can also use it any other time to see if anything has been recently motified or what's on the staging area just to keep track as you go along. 
+* #### git add  
+* #### git commit 
+* #### git push 
