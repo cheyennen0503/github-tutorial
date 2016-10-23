@@ -26,4 +26,5 @@ _As you go on with working with your code, you should constantly use these comma
 * #### git add  
 Git add is a tool used to add files to the staging area to be committed. There are many different ways to add. There's `git add 'file'`, `git add .`, and `git add --all`. For `git add 'file'`, this is a simple way to add a single file that you have recently edited to the staging area to be committed. `git add .` adds all of the files that have been edited to the staging area. `git add --all` adds all of the files that have changes including deleted files. 
 * #### git commit 
+Git commit is a tool used for taking snapshots of code that are on the staging area. After you add a file or files and to `git status`, you simply type in `git commit -m`. The -m is for you to type a message **in quotations** of what changes you have made in the file or files. It's imperative that you type in the command as shown because if you don't, it can lead you to somewhere you don't want to go. 
 * #### git push 
