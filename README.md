@@ -26,6 +26,20 @@ Github stores all of the code/snapshots in the cloud.
 4. Then you choose Blank as your template.
 5. After all that is done, you click create workspace. 
 
+##### Making your SSH key (one time set-up meaning it's forever connected to your cloud 9) :
+1. First you go to github and make sure you are logged in.
+2. Then you go to the top right corner, click your profile icon, and then click settings.
+3. On the left sidebar, click SSH and GPG keys.
+![image](https://snag.gy/Fxj4Ch.jpg)
+4. Then on the top right corner click new SSH key.
+5. Then title your key. (An appropriate title would be cloud 9 since it's a key for cloud 9).
+6. Then you open a new tap and go to cloud 9 and on the top right click the gear icon.
+7. Then on the left sidebar, click SSH keys.
+8. In the gray box, copy the whole SSH key. (Starts with ssh-rsa). 
+![image](https://snag.gy/cHmTGr.jpg)
+9. Add the SSH key to github.
+10. Then you open your workspace on cloud 9 and type in `ssh -T git@github.com`. 
+
 
 ---
 ## Repository Setup
