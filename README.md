@@ -10,7 +10,21 @@ Github stores all of the code/snapshots in the cloud.
 
 ---
 ## Initial Setup
+##### To make a github account:  
+1. first you go to [github.com](github.com).  
+2. Next, you go to the top right of the screen and click "sign up". 
+3. Then you fill in the information required. ![image](https://snag.gy/Aykn39.jpg)
+4. Github will then ask you for a plan and you click the free plan and move on to the third and final step.
+5. The third and final step is optional where github wants to learn more about you and your experience. You can either fill it out or skip this step. 
+6. Now when you go to [cloud 9](c9.io), you can easily log in with your github account
 
+##### In cloud 9 to make a new workspace to fit with git projects:
+1. First after you log into cloud 9 with github, you press new workspace.
+![image](https://snag.gy/LMxCWZ.jpg)
+2. Then you type in a name and a description for your workspace (preferably one that relates to git).
+3. Next you click public to make your workspace viewable to everyone.
+4. Then you choose Blank as your template.
+5. After all that is done, you click create workspace. 
 
 
 ---
