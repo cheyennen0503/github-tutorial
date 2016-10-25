@@ -84,9 +84,9 @@ Git push is a tool used to add all of your commits to your remote repository. Yo
 Forking is a way to create a replica of someone else's remote repository so that you can take their project, make changes, and push those changes to the forked remote repository without disrupting the original project. When you want to fork a project on github, you simply go to that project and click "fork" on the top right corner. 
 
 #### Clone 
-Cloning is 
+Cloning is when you create a replica of a local repository that has already been made and saved in your own repository. Cloning is good for re-naming your remote repository. When you clone a local repository from a remote, it automatically creates the connection between the remote and local as well as names it and the cloned local repository. To clone, you go to your remote, you click "clone or download", make sure you're cloning with SSH, and copy the link to your clipboard. Then go to your workspace in cloud 9 and type `git clone (url)` and the repository should show up
 
 #### Pull Requests  
 Pull requests are ways that people who have forked your repository and have made changes to it can let you see those changes and possibly add them to the original project. When you submit a pull request, on your forked repository, you click pull request to suggest those changes. ![image](https://snag.gy/6NzseH.jpg)
 
-#### Pull
+#### Pull 
