@@ -76,3 +76,17 @@ Git commit is a tool used for taking snapshots of code that are on the staging a
 #### git push  
 Git push is a tool used to add all of your commits to your remote repository. Your remote repository is your repository in github where all of your code is stored. After you commit your code, you push it to the remote repository by using `git push`. You use `git push` after you do `git push -u origin master` which tells git where the code is being pushed to. You only use it once.  
 ![git push image](https://snag.gy/ZRXhEl.jpg) 
+
+
+---
+## Collaboration 
+#### Fork  
+Forking is a way to create a replica of someone else's remote repository so that you can take their project, make changes, and push those changes to the forked remote repository without disrupting the original project. When you want to fork a project on github, you simply go to that project and click "fork" on the top right corner. 
+
+#### Clone 
+Cloning is 
+
+#### Pull Requests  
+Pull requests are ways that people who have forked your repository and have made changes to it can let you see those changes and possibly add them to the original project. When you submit a pull request, on your forked repository, you click pull request to suggest those changes. ![image](https://snag.gy/6NzseH.jpg)
+
+#### Pull
