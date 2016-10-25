@@ -43,6 +43,22 @@ Github stores all of the code/snapshots in the cloud.
 
 ---
 ## Repository Setup
+##### When making your local repository in cloud 9:
+1. Go to your workspace in cloud 9 and change directories into your workspace by typing `cd ~/workspace`.
+2. Next make your directory by typing `mkdir "name"`.
+3. Then change directories to your new directory by typing `cd "name"`.
+4. Then type `git init`. This initializes git into your local repository. _Always make sure you are in your local repository_. 
+5. Next, make a README file by typing `touch README.md`. The md stands for markdown.
+6. Type what ever you would like in your readme file.
+7. Next, to save this work, you use `git add .` or `git add README.md` to add it to the staging area for it to be commited, or taken a snapshot of for it to be saved. 
+8. Then you commit what you added by typing `git commit -m "(message)"`. This takes a snapshot of your changes to your file to be saved in the cloud.
+
+##### To push these changes into the cloud for it to be saved in a remote repository: 
+1. First, go to github and click the plus icon to create a new repository.
+2. When naming your remote repository in github, make sure it has the **exact** same name as your local repository. 
+3. Finally, for your one time set up with the connection between your remote and local repositories, click SSH key at the top right.
+4. Then at the bottom, one at a time, copy and paste these lines of code into your cloud 9 (the user and repository will be your own):
+![image](https://snag.gy/LYRyMG.jpg)
 
 
 
