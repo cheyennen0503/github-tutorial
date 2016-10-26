@@ -4,8 +4,8 @@ _by Cheyenne Nicaisse_
 
 ---
 ## Git vs. GitHub
-The difference between git and github is git takes snapshots of code and doesn't need github but **github needs git**.  
-Github stores all of the code/snapshots in the cloud. 
+The difference between git and github is that git takes snapshots of code and doesn't need github in order to function but **github needs git**.  
+Github stores all of your code/snapshots in the cloud or your remote repository
 
 
 ---
@@ -14,9 +14,10 @@ Github stores all of the code/snapshots in the cloud.
 1. first you go to [github.com](github.com).  
 2. Next, you go to the top right of the screen and click "sign up". 
 3. Then you fill in the information required. ![image](https://snag.gy/Aykn39.jpg)
-4. Github will then ask you for a plan and you click the free plan and move on to the third and final step.
+4. Github will then ask you for a plan and you click the free plan and move on to the third step.
 5. The third and final step is optional where github wants to learn more about you and your experience. You can either fill it out or skip this step. 
 6. Now when you go to [cloud 9](c9.io), you can easily log in with your github account
+7. **REMEMBER** to verify your account. an email will be sent from github in order for you to verify you are not a robot, click the link given to verify yourself. if you do not do this, nobody will be able to see any of your remote repositories
 
 ##### In cloud 9 to make a new workspace to fit with git projects:
 1. First after you log into cloud 9 with github, you press new workspace.
