@@ -1,0 +1,213 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/github-dark.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>GitHub-tutorial</title>
+  <meta name="description" content="Getting started with github">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">GitHub-tutorial</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">Getting started with github</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/cheyennen0503/github-tutorial/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/cheyennen0503/github-tutorial/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/cheyennen0503/github-tutorial" class="code">View GitHub-tutorial on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Cheyenne Nicaisse</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p>The difference between git and github is that git takes snapshots of code and doesn't need github in order to function but <strong>github needs git</strong>.<br>
+Github stores all of your code/snapshots in the cloud or your remote repository</p>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<h5>
+<a id="to-make-a-github-account" class="anchor" href="#to-make-a-github-account" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>To make a github account:</h5>
+
+<ol>
+<li>first you go to <a href="github.com">github.com</a>.<br>
+</li>
+<li>Next, you go to the top right of the screen and click "sign up". </li>
+<li>Then you fill in the information required. <img src="https://snag.gy/Aykn39.jpg" alt="image">
+</li>
+<li>Github will then ask you for a plan and you click the free plan and move on to the third step.</li>
+<li>The third and final step is optional where github wants to learn more about you and your experience. You can either fill it out or skip this step. </li>
+<li>Now when you go to <a href="c9.io">cloud 9</a>, you can easily log in with your github account</li>
+<li>
+<strong>REMEMBER</strong> to verify your account. an email will be sent from github in order for you to verify you are not a robot, click the link given to verify yourself. if you do not do this, nobody will be able to see any of your remote repositories</li>
+</ol>
+
+<h5>
+<a id="in-cloud-9-to-make-a-new-workspace-to-fit-with-git-projects" class="anchor" href="#in-cloud-9-to-make-a-new-workspace-to-fit-with-git-projects" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>In cloud 9 to make a new workspace to fit with git projects:</h5>
+
+<ol>
+<li>First after you log into cloud 9 with github, you press new workspace.
+<img src="https://snag.gy/LMxCWZ.jpg" alt="image">
+</li>
+<li>Then you type in a name and a description for your workspace (preferably one that relates to git).</li>
+<li>Next you click public to make your workspace viewable to everyone.</li>
+<li>Then you choose Blank as your template.</li>
+<li>After all that is done, you click create workspace. </li>
+</ol>
+
+<h5>
+<a id="making-your-ssh-key-one-time-set-up-meaning-its-forever-connected-to-your-cloud-9-" class="anchor" href="#making-your-ssh-key-one-time-set-up-meaning-its-forever-connected-to-your-cloud-9-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Making your SSH key (one time set-up meaning it's forever connected to your cloud 9) :</h5>
+
+<ol>
+<li>First you go to github and make sure you are logged in.</li>
+<li>Then you go to the top right corner, click your profile icon, and then click settings.</li>
+<li>On the left sidebar, click SSH and GPG keys.
+<img src="https://snag.gy/Fxj4Ch.jpg" alt="image">
+</li>
+<li>Then on the top right corner click new SSH key.</li>
+<li>Then title your key. (An appropriate title would be cloud 9 since it's a key for cloud 9).</li>
+<li>Then you open a new tap and go to cloud 9 and on the top right click the gear icon.</li>
+<li>Then on the left sidebar, click SSH keys.</li>
+<li>In the gray box, copy the whole SSH key. (Starts with ssh-rsa). 
+<img src="https://snag.gy/cHmTGr.jpg" alt="image">
+</li>
+<li>Add the SSH key to github.</li>
+<li>Then you open your workspace on cloud 9 and type in <code>ssh -T git@github.com</code>. </li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<h5>
+<a id="when-making-your-local-repository-in-cloud-9" class="anchor" href="#when-making-your-local-repository-in-cloud-9" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>When making your local repository in cloud 9:</h5>
+
+<ol>
+<li>Go to your workspace in cloud 9 and change directories into your workspace by typing <code>cd ~/workspace</code>.</li>
+<li>Next make your directory by typing <code>mkdir "name"</code>.</li>
+<li>Then change directories to your new directory by typing <code>cd "name"</code>.</li>
+<li>Then type <code>git init</code>. This initializes git into your local repository. <em>Always make sure you are in your local repository</em>. </li>
+<li>Next, make a README file by typing <code>touch README.md</code>. The md stands for markdown.</li>
+<li>Type what ever you would like in your readme file.</li>
+<li>Next, to save this work, you use <code>git add .</code> or <code>git add README.md</code> to add it to the staging area for it to be commited, or taken a snapshot of for it to be saved. </li>
+<li>Then you commit what you added by typing <code>git commit -m "(message)"</code>. This takes a snapshot of your changes to your file to be saved in the cloud.</li>
+</ol>
+
+<h5>
+<a id="to-push-these-changes-into-the-cloud-for-it-to-be-saved-in-a-remote-repository" class="anchor" href="#to-push-these-changes-into-the-cloud-for-it-to-be-saved-in-a-remote-repository" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>To push these changes into the cloud for it to be saved in a remote repository:</h5>
+
+<ol>
+<li>First, go to github and click the plus icon to create a new repository.</li>
+<li>When naming your remote repository in github, make sure it has the <strong>exact</strong> same name as your local repository. </li>
+<li>Finally, for your one time set up with the connection between your remote and local repositories, click SSH key at the top right.</li>
+<li>Then at the bottom, one at a time, copy and paste these lines of code into your cloud 9 (the user and repository will be your own):
+<img src="https://snag.gy/LYRyMG.jpg" alt="image">
+</li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<p><em>As you go on with working with your code, you should constantly use these commands to keep track of your code.</em></p>
+
+<h4>
+<a id="git-status" class="anchor" href="#git-status" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>git status</h4>
+
+<p>Git status is a tool used to see the changes that have been made in your project (the status of your project) which would show up in red and when an edited file has been added to the staging area for a snapshot, it will show up in <code>git status</code> as green. So the syntax of <code>git status</code> is exactly that. You use git status before you add, after you add, and after you commit. You can also use it any other time to see if anything has been recently motified or what's on the staging area just to keep track as you go along.<br>
+<img src="https://snag.gy/ayT53B.jpg" alt="git status image"></p>
+
+<h4>
+<a id="git-add" class="anchor" href="#git-add" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>git add</h4>
+
+<p>Git add is a tool used to add files to the staging area to be committed. There are many different ways to add. There's <code>git add 'file'</code>, <code>git add .</code>, and <code>git add --all</code>. For <code>git add 'file'</code>, this is a simple way to add a single file that you have recently edited to the staging area to be committed. <code>git add .</code> adds all of the files that have been edited to the staging area. <code>git add --all</code> adds all of the files that have changes including deleted files. </p>
+
+<h4>
+<a id="git-commit" class="anchor" href="#git-commit" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>git commit</h4>
+
+<p>Git commit is a tool used for taking snapshots of code that are on the staging area. After you add a file or files and to <code>git status</code>, you simply type in <code>git commit -m</code>. The -m is for you to type a message <strong>in quotations</strong> of what changes you have made in the file or files. It's imperative that you type in the command as shown because if you don't, it can lead you to somewhere you don't want to go.<br>
+<img src="https://snag.gy/5RPNVI.jpg" alt="git commit image"></p>
+
+<h4>
+<a id="git-push" class="anchor" href="#git-push" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>git push</h4>
+
+<p>Git push is a tool used to add all of your commits to your remote repository. Your remote repository is your repository in github where all of your code is stored. After you commit your code, you push it to the remote repository by using <code>git push</code>. You use <code>git push</code> after you do <code>git push -u origin master</code> which tells git where the code is being pushed to. You only use it once.<br>
+<img src="https://snag.gy/ZRXhEl.jpg" alt="git push image"> </p>
+
+<hr>
+
+<h2>
+<a id="collaboration" class="anchor" href="#collaboration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Collaboration</h2>
+
+<h4>
+<a id="fork" class="anchor" href="#fork" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Fork</h4>
+
+<p>Forking is a way to create a replica of someone else's remote repository so that you can take their project, make changes, and push those changes to the forked remote repository without disrupting the original project. When you want to fork a project on github, you simply go to that project and click "fork" on the top right corner. </p>
+
+<h4>
+<a id="clone" class="anchor" href="#clone" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Clone</h4>
+
+<p>Cloning is when you create a replica of a local repository that has already been made and saved in your own repository. Cloning is good for re-naming your remote repository. When you clone a local repository from a remote, it automatically creates the connection between the remote and local as well as names it and the cloned local repository. To clone, you go to your remote, you click "clone or download", make sure you're cloning with SSH, and copy the link to your clipboard. Then go to your workspace in cloud 9 and type <code>git clone (url)</code> and the repository should show up.</p>
+
+<h4>
+<a id="pull-requests" class="anchor" href="#pull-requests" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pull Requests</h4>
+
+<p>Pull requests are ways that people who have forked your repository and have made changes to it can let you see those changes and possibly add them to the original project. When you submit a pull request, on your forked repository, you click pull request to suggest those changes. <img src="https://snag.gy/6NzseH.jpg" alt="image"></p>
+
+<h4>
+<a id="pull" class="anchor" href="#pull" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pull</h4>
+
+<p>After you accept your pull request suggesting changes to your project, you simply type git pull to see those changes in effect on your orininal project. </p>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/cheyennen0503" class="avatar"><img src="https://avatars0.githubusercontent.com/u/15128723?v=3&amp;s=60" width="48" height="48"></a> <a href="https://github.com/cheyennen0503">cheyennen0503</a> maintains <a href="https://github.com/cheyennen0503/github-tutorial">GitHub-tutorial</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/cheyennen0503/github-tutorial/tarball/master" class="tar">tar</a><a href="https://github.com/cheyennen0503/github-tutorial/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>
